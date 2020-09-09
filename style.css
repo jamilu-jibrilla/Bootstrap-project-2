@@ -1,0 +1,187 @@
+body {
+    font-family: "montserrat" sans-serif;
+}
+header {
+    background-color: #ffffff;
+}
+header ul {
+    padding: 20px;
+}
+p,h1,h2,h3,h4,h5,h6 {
+    margin:3px ;
+}
+.logo {
+    padding: 20px;
+}
+ ul li {
+    display: inline-block;
+    list-style: none;    
+    padding-right: 20px;
+}
+header  a {
+    color: black;
+    font-size: 18px;
+    
+}
+.grid h1,.grid h5,.second-container .h4, .second-container p {
+    font-weight: 900;
+}
+.grid a {
+    border:2px solid rgba(0,0,0,0);
+    border-bottom-color: red;
+    color: black;
+
+}
+
+@media only screen and (min-width:560px) {
+    
+    .grid {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: 85vh;
+    }
+    .chldgrid1 {
+        background-image: url(./img/categories/category-1.jpg);
+        background-position: center;
+        padding: 25% 15%;
+        grid-column-start:1;
+        grid-column-end:3;
+        grid-row-start:1;
+        grid-row-end:3;
+    }
+    .chldgrid1 h1 {
+        font-size: 65px;
+
+    }
+
+}
+
+@media only screen and (max-width:560px) {
+    footer button {
+        position: relative;
+        
+    }
+    footer .mble input {
+        width: 500px; 
+        padding: 15px inherit;  
+    }
+}
+
+.chldgrid1,.chldgrid2,.chldgrid3,.chldgrid4,.chldgrid5 {
+    margin-bottom: 10px;
+
+}
+.chldgrid1 {
+    background-image: url(./img/categories/category-1.jpg);
+    background-position: center;
+    padding: 25% 10%;
+
+}
+.chldgrid1 h1  {
+    font-family: "Cookie", cursive;
+}
+.chldgrid2 {
+    background-image: url(./img/categories/category-2.jpg);
+    background-position: center;
+    padding: 25% 10%;
+}
+.chldgrid3 {
+    background-image: url(./img/categories/category-3.jpg);
+    background-position: center;
+    padding: 25% 10%;
+}
+.chldgrid4 {
+    background-image: url(./img/categories/category-4.jpg);
+    background-position: center;
+    padding: 25% 10%;
+}
+.chldgrid5 {
+    background-image: url(./img/categories/category-5.jpg);
+    background-position: center;
+    padding: 25% 10%;
+}
+.second-container img {
+    width: 100%;
+}
+.second-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.second-container li, header li{
+    display: inline-block;
+    padding:5px;
+    margin: 0px;
+}
+.second-container a {
+    color: black;
+}
+.right {
+    margin-left: auto;
+}
+.rating i {
+    font-size: 10px;
+    color: #e3c01c;
+}
+
+.third-container {
+    background-image: url(./img/banner/banner-1.jpg);
+    background-position:center ;
+    height: 450px;
+    text-align: center;
+}
+.m-left {
+    margin-left: 30px;
+}
+.fourth-container {
+    margin-top: 50px;
+}
+.TREND {
+    padding-bottom: 7%;
+}
+.services__item i {
+    font-size: 36px;
+    color: #ca1515;
+    position: absolute;
+    left: -18%;
+    top: 4px;
+}    
+.insta-img  img{
+    width: 100%;
+}
+footer,.copyright {
+    padding:5% 5% 0%;
+}
+footer li {
+    display: block;
+    padding-bottom:5px ;
+    padding-top:5px ;
+}
+footer input[type=email] {
+    padding: 10px 34px;
+    border-radius: 35px;
+}
+footer ul {
+    padding: 0px;
+}
+ button{
+    border-radius: 20px;
+    padding: 2px 14px;
+    position: relative;
+    right: 30%;
+    color: white;
+    background-color: brown;
+}
+footer a {
+    color: black;
+}
+footer a:hover {
+    color: black;
+}
+footer .social {
+    font-size: 20px;
+}
+footer p i {
+    color:red;
+}
